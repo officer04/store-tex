@@ -1,0 +1,57 @@
+@import './variables.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 40px;
+  height: 15vh;
+
+  .logo {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      gap: 0 40px;
+      justify-content: space-between;
+
+      .link {
+        list-style-type: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+        transition: 0.15s color ease-in, 0.15s background-color ease-in;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+
+      .active {
+        color: $blue;
+      }
+    }
+  }
+
+  .account {
+    ul {
+      display: flex;
+      gap: 20px;
+
+      a {
+        color: white;
+        transition: 0.15s color ease-in, 0.15s background-color ease-in;
+      }
+
+      a:hover {
+        color: $blue;
+      }
+    }
+    cursor: pointer;
+  }
+}

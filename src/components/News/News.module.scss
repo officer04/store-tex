@@ -1,0 +1,11 @@
+@import "./../../style/variables.scss";
+
+.news {
+  color: white;
+  // height: 65vh;
+  p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px
+  }
+}

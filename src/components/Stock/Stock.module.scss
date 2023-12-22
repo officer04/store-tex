@@ -1,0 +1,46 @@
+@import './../../style/variables.scss';
+
+.stock {
+  color: white;
+  
+  .title {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: white;
+  }
+
+  .group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    img {
+      width: 500px;
+      height: 300px;
+    }
+
+    .text {
+      width: 600px;
+
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        font-size: 18px;
+        padding: 15px 25px;
+        background-color: $blue;
+        color: $white;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}

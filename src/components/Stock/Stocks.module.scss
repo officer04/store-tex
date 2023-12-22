@@ -1,0 +1,37 @@
+@import './../../style/variables.scss';
+
+.stocks {
+
+  .text {
+    font-size: 26px;
+    color: white;
+    margin-bottom: 150px;
+  }
+
+  .title {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: white
+  }
+
+  .group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100PX;
+    .card {
+      width: 300px;
+      text-align: center;
+      color: WHITE;
+      img {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 26px;
+      }
+    }
+  }
+
+
+}

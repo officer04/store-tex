@@ -1,0 +1,24 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 440px);
+  row-gap: 40px;
+  color: white;
+}
+
+.wrapper {
+  color: white;
+  .title {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+}
